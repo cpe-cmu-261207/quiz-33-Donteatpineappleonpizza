@@ -16,7 +16,7 @@ export default function Reply(props) {
           style={{ backgroundColor: "#3A3B3C" }}
         >
           <span className="fw-semibold" style={{ color: "#E4E6EB" }}>
-            หมาน้อย
+            {props.username}
           </span>
           <br />
           <span style={{ color: "#E4E6EB" }}>{props.content}</span>
